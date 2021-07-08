@@ -1,0 +1,113 @@
+main {
+    margin-top: 50px;
+}
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    line-height: 1.8rem;
+}
+a {
+  text-decoration: none;
+}
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links .nav-link {
+   margin-right: 10px;
+   color: white;
+}
+.nav-links .nav-link:hover, .navbar-brand:hover  {
+    color:rgb(187, 187, 247)
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar-brand #header-img {
+    margin-right: 5px;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+}
+header {
+  background-color: rgb(7, 7, 90);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.form-container {
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-container video {
+    width: 70%;
+    padding: 20px 0px;
+}
+.form-container .container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.form-container {
+    background-color:  #6c757d;
+}
+#form input {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+}
+#form h2 {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: rgb(7, 7, 90);
+    color: white;
+}
+section {
+    min-height: 400px;
+}
+section h2 {
+    text-decoration: underline;
+}
+section, section .container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#link-1 {
+    background-color: #007bff;
+    color: white;
+}
+
+#link-3 {
+    background-color: #17a2b8;
+    color: white;
+}
